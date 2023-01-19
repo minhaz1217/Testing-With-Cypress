@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-cypress",
+  "version": "1.0.0",
+  "description": "Just some test examples for cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhaz1217/Testing-With-Cypress.git"
+  },
+  "author": "Minhazul Hayat Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhaz1217/Testing-With-Cypress/issues"
+  },
+  "homepage": "https://github.com/minhaz1217/Testing-With-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
