@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/minhaz1217/Testing-With-Cypress#readme",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^12.3.0",
+    "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
