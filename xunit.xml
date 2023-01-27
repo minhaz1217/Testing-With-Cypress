@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Fri, 27 Jan 2023 19:10:54 GMT" time="29.153">
+<testcase classname="Test Alerts" name="Test simple alert" time="22.683"/>
+<testcase classname="Test Alerts" name="Test confirm alert" time="2.298"/>
+<testcase classname="Test Alerts" name="Test Prompt alert" time="0.462"/>
+</testsuite>
