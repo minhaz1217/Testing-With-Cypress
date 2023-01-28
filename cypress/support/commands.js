@@ -19,6 +19,14 @@
 //
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+Cypress.Commands.add("Login", () => {
+  cy.visit("https://the-internet.herokuapp.com/login");
+  cy.get("#username").type("tomsmith");
+  cy.get("#password").type("SuperSecretPassword!");
+  cy.get("#login > button").click();
+  cy.url().should("include", "/secure");
+  cy.get(".button").should("be.visible");
+});
 //
 //
 // -- This will overwrite an existing command --
